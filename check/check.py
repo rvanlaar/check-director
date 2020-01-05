@@ -80,8 +80,11 @@ if __name__ == "__main__":
         builtins = parse_builtins(builtins_entries.read())
     with open("inputs/the.txt") as the_entries:
         thes = parse_thes(the_entries.read())
+
     with open("inputs/d3.menus") as D3:
         d3_entries = D3.read().split("\n")
+    with open("inputs/d4.menus") as D4:
+        d4_entries = D4.read().split("\n")
 
     all_commands = {
         entry.name.lower(): entry for entry in chain(builtins, thes)
@@ -93,6 +96,16 @@ if __name__ == "__main__":
             continue
         if entry.lower() not in all_commands.keys():
             missing.append(entry)
-    print("missing:")
+    print("missing D3:")
+    for entry in missing:
+        print(entry)
+
+    missing = []
+    for entry in d4_entries:
+        if entry.strip() == "":
+            continue
+        if entry.lower() not in all_commands.keys():
+            missing.append(entry)
+    print("missing D4:")
     for entry in missing:
         print(entry)

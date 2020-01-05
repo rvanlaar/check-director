@@ -88,6 +88,35 @@ The current missing output for D3 is:
     when timeOut
     word
 
+Should be D3 or lower but is classified as D4:
+
+    backColor
+    clearGlobals
+    controller
+    directToStage
+    duration
+    editableText
+    foreColor
+    height
+    loop
+    maxInteger
+    mci
+    moveableSprite
+    movieRate
+    movieTime
+    multiSound
+    preLoad
+    quickTimePresent
+    ramNeeded
+    romanLingo
+    sound
+    startTime
+    stopTime
+    trails
+    unLoad
+    unLoadCast
+    volume
+    width
 
 For D4 the missing output is:
 

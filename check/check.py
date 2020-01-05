@@ -91,13 +91,22 @@ if __name__ == "__main__":
     }
 
     missing = []
+    should_be_d3 = []
     for entry in d3_entries:
         if entry.strip() == "":
             continue
         if entry.lower() not in all_commands.keys():
             missing.append(entry)
+        else:
+            lingo = all_commands[entry.lower()]
+            if lingo.version == "4":
+                should_be_d3.append(entry)
+
     print("missing D3:")
     for entry in missing:
+        print(entry)
+    print("should be D3 or lower:")
+    for entry in should_be_d3:
         print(entry)
 
     missing = []

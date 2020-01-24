@@ -31,8 +31,6 @@ The current missing output for D3 is:
     char
     contains
     exit
-    factory
-    factory
     field textAlign
     field textFont
     field textHeight
@@ -81,7 +79,6 @@ The current missing output for D3 is:
     sprite s intersects
     sprite s within
     starts
-    visibility
     when keyDown
     when mouseDown
     when mouseUp
@@ -91,30 +88,10 @@ The current missing output for D3 is:
 Should be D3 or lower but is classified as D4:
 
     backColor
-    clearGlobals
-    controller
-    directToStage
-    duration
     editableText
     foreColor
     height
-    loop
-    maxInteger
-    mci
     moveableSprite
-    movieRate
-    movieTime
-    multiSound
-    preLoad
-    quickTimePresent
-    ramNeeded
-    romanLingo
-    sound
-    startTime
-    stopTime
-    trails
-    unLoad
-    unLoadCast
     volume
     width
 
@@ -138,6 +115,7 @@ For D4 the missing output is:
     >=
     �
     after
+    ancestor
     and
     backColor of cast
     backColor of sprite
@@ -205,7 +183,6 @@ For D4 the missing output is:
     exit
     exit repeat
     exitFrame
-    factory
     fadeIn
     fadeOut
     fileName of cast
@@ -213,9 +190,7 @@ For D4 the missing output is:
     foreColor of cast
     foreColor of sprite
     frameRate of cast
-    frameTempo
     global
-    go
     go loop
     go next
     go previous
@@ -236,10 +211,13 @@ For D4 the missing output is:
     intersects
     into
     item of
+    items
     keyDown
     keyUp
+    last
     left of sprite
     line of
+    lines
     lineSize of sprite
     list ilk
     loaded of cast
@@ -251,6 +229,8 @@ For D4 the missing output is:
     mAtFrame
     mDescribe
     mDispose
+    me
+    menus
     mGet
     mInstanceRespondsTo
     mMessageList
@@ -381,3 +361,4 @@ For D4 the missing output is:
     with
     within
     word of
+    words
